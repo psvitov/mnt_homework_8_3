@@ -1,22 +1,13 @@
 ---
-#clickhouse:
-#  hosts:
-#    srv-clickhouse:
-#      ansible_host: 51.250.92.85
-#vector:
-#  hosts:
-#    srv-vector:
-#      ansible_host: 51.250.90.71
-
 clickhouse:
   hosts:
     srv-clickhouse:
-      ansible_host: 51.250.23.98
+      ansible_host: 51.250.107.1
 vector:
   hosts:
     srv-vector:
-      ansible_host: 51.250.28.84
+      ansible_host: 84.201.154.105
 lighthouse:
   hosts:
     srv-lighthouse:
-      ansible_host: 130.193.42.60
+      ansible_host: 84.201.179.38
